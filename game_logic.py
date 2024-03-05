@@ -30,10 +30,10 @@ def print_result(status, player, number = 0):
 # Calcula el próximo intento de la computadora en función del resultado del intento anterior.
 def computer_function(a, b, computer_number = 0, status = 0):
     if status == 'menor':
-        a = computer_number + 1
+        a = computer_number + 1 # Ajusta el límite inferior del rango de búsqueda.
         return randint(a, b), a, b
     elif status == 'mayor':
-        b = computer_number - 1
+        b = computer_number - 1  # Ajusta el límite superior del rango de búsqueda.
         return randint(a, b), a, b
     else:
-        return randint(a, b), a, b
+        return randint(a, b), a, b  # Si es el primer intento, selecciona un número aleatorio dentro del rango.
