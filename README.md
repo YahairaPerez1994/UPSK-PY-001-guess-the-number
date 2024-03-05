@@ -1,15 +1,15 @@
+---
+runme:
+  id: 01HR89QZW26G1BCEG11W11WY2F
+  version: v3
+---
+
 # Adivina el Número - Guess the Number
 
 ## Índice
 
 - [1. Resumen del Proyecto](#1-resumen-del-proyecto)
-- [2. Consideraciones Generales](#2-consideraciones-generales)
-- [3. Objetivos de Aprendizaje](#3-objetivos-de-aprendizaje)
-
----
-
-![GUESS THE
-NUMBER](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number.png?alt=media)
+- [2. Objetivos de Aprendizaje](#3-objetivos-de-aprendizaje)
 
 ## 1. Resumen del Proyecto
 
@@ -20,242 +20,200 @@ aleatorio entre 1 y 100. Deben tener en cuenta la tentativa anterior, si fue
 
 ![Demostración animada de sesión de juego](https://firebasestorage.googleapis.com/v0/b/laboratoria-945ea.appspot.com/o/guess-the-number-demo.gif?alt=media)
 
-## 2. Consideraciones Generales
-
-- Este proyecto debe desarrollarse de manera **individual**.
-- La estimación de tiempo para completar el proyecto es de 1 a 2 Sprints.
-- Concéntrate en adquirir conocimientos en lugar de simplemente "terminar" el
-  proyecto.
-- Ten paciencia. No te preocupes demasiado por lo que aún no entiendes
-  completamente.
-- Tu aprendizaje se desarrollará a medida que progreses.
-
 ### **Criterios de Aceptación Mínimos del Proyecto**
 
 - La jugadora y el ordenador se turnarán en turnos para intentar adivinar el
-  número.
+   número.
 - Después de cada tentativa, se debe mostrar:
-  * El nombre del jugador (persona o computadora).
-  * La suposición realizada.
-  * Un mensaje indicando si la suposición fue muy alta, muy baja o correcta.
-- El juego terminará tan pronto como la jugadora o el ordenador adivine el
-  número secreto. Debe mostrarse un mensaje de fin de juego, así como una lista
-  de todas las tentativas realizadas por la jugadora ganadora.
+   * El nombre del jugador (persona o computadora).
+   * La suposición realizada.
+   * Un mensaje indicando si la suposición fue muy alta, muy baja o correcta.
 
-**_¡Diviértete construyendo tu juego de adivinanza de números! 🎲🎮_**
+- El juego terminará tan pronto como la jugadora o el ordenador adivine el
+   número secreto. Debe mostrarse un mensaje de fin de juego, así como una lista
+   de todas las tentativas realizadas por la jugadora ganadora.
+
+___¡Diviértete construyendo tu juego de adivinanza de números! 🎲🎮___
 
 - [Versión en Python](./docs/README-python.md)
-- [Versión en Java](./docs/README-java.md)
 
-## 3. Objetivos de Aprendizaje
-
+## 2. Objetivos de Aprendizaje
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
-
-### Java
-
-- [ ] **Modificadores de acesso (public, private, protected)**
-
-- [ ] **Uso de condicionales**
-
-- [ ] **Uso de bucles (Loops)**
-
-#### Tipos de data
-
-- [ ] **Datos primitivos vs no primitivos**
-
-- [ ] **Cadenas**
-
-- [ ] **Arreglos**
-
-#### Colecciones
-
-- [ ] **ArrayList**
-
-#### Testing
-
-- [ ] **JUnit**
-
-- [ ] **Mockito**
-
-### Programación Orientada a Objetos (OOP)
-
-- [ ] **Clases**
-
-- [ ] **Objetos**
-
-- [ ] **Métodos**
-
-- [ ] **Atributos**
-
-- [ ] **Constructores**
-
-- [ ] **Encapsulamiento**
-
-- [ ] **Abstracción**
-
-- [ ] **Composición**
-
-- [ ] **Interfaces**
-
-- [ ] **Herencia (super, extends, override)**
-
-- [ ] **Lenguaje de Modelado Unificado (UML, class diagrams)**
 
 ### Python
 
 - [ ] **Variables (declaración, asignación, ámbito)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Variables in Python – Real Python (en inglés)](https://realpython.com/python-variables/)
-  * [Variables in Python - GeeksforGeeks (en inglés)](https://www.geeksforgeeks.org/python-variables/)
+   * [Variables in Python – Real Python (en inglés)](https://realpython.com/python-variables/)
+   * [Variables in Python - GeeksforGeeks (en inglés)](https://www.geeksforgeeks.org/python-variables/)
+
 </p></details>
 
 - [ ] **Uso de condicionales (if, elif, ternario)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Conditional Statements in Python – Real Python (en inglés)](https://realpython.com/python-conditional-statements/)
+   * [Conditional Statements in Python – Real Python (en inglés)](https://realpython.com/python-conditional-statements/)
+
 </p></details>
 
 - [ ] **Operadores (identidad, aritméticos, comparación etc)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Python Operators - GeeksforGeeks (en inglés)](https://www.geeksforgeeks.org/python-operators/)
+   * [Python Operators - GeeksforGeeks (en inglés)](https://www.geeksforgeeks.org/python-operators/)
+
 </p></details>
 
 - [ ] **Docstrings (y su diferencia de comentarios)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Docstrings - Python Docs (en inglés)](https://docs.python.org/3/tutorial/controlflow.html#documentation-strings)
+   * [Docstrings - Python Docs (en inglés)](https://docs.python.org/3/tutorial/controlflow.html#documentation-strings)
+
 </p></details>
 
 - [ ] **Linting (pylint)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Pylint - Documentación oficial](https://pylint.pycqa.org/en/latest/)
-  * [Linting Python in Visual Studio Code - Visual Studio Code Docs (en inglés)](https://code.visualstudio.com/docs/python/linting)
+   * [Pylint - Documentación oficial](https://pylint.pycqa.org/en/latest/)
+   * [Linting Python in Visual Studio Code - Visual Studio Code Docs (en inglés)](https://code.visualstudio.com/docs/python/linting)
+
 </p></details>
 
 #### Tipos de datos
 
 - [ ] **Tipos de datos primitivos (int, float, str, bool)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Data Types - Python Docs (en inglés)](https://docs.python.org/3/library/datatypes.html)
-  * [Data types in Python (en inglés)](https://www.educative.io/answers/data-types-in-python)
+   * [Data Types - Python Docs (en inglés)](https://docs.python.org/3/library/datatypes.html)
+   * [Data types in Python (en inglés)](https://www.educative.io/answers/data-types-in-python)
+
 </p></details>
 
 - [ ] **Listas (arrays)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Lists - Python Docs (en inglés)](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
-  * [Lists and Tuples in Python - Real Python (en inglés)](https://realpython.com/python-lists-tuples/)
+   * [Lists - Python Docs (en inglés)](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
+   * [Lists and Tuples in Python - Real Python (en inglés)](https://realpython.com/python-lists-tuples/)
+
 </p></details>
 
 - [ ] **Tuples**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Tuples - Python Docs (en inglés)](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)
-  * [Lists and Tuples in Python - Real Python (en inglés)](https://realpython.com/python-lists-tuples/)
+   * [Tuples - Python Docs (en inglés)](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)
+   * [Lists and Tuples in Python - Real Python (en inglés)](https://realpython.com/python-lists-tuples/)
+
 </p></details>
 
 - [ ] **Dictionaries (Dicts)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Dictionaries - Python Docs (en inglés)](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
-  * [Dictionaries in Python - Real Python (en inglés)](https://realpython.com/python-dicts/)
+   * [Dictionaries - Python Docs (en inglés)](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
+   * [Dictionaries in Python - Real Python (en inglés)](https://realpython.com/python-dicts/)
+
 </p></details>
 
 - [ ] **Sets**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Sets - Python Docs (en inglés)](https://docs.python.org/3/tutorial/datastructures.html#sets)
-  * [Sets in Python - Real Python (en inglés)](https://realpython.com/python-sets/)
+   * [Sets - Python Docs (en inglés)](https://docs.python.org/3/tutorial/datastructures.html#sets)
+   * [Sets in Python - Real Python (en inglés)](https://realpython.com/python-sets/)
+
 </p></details>
 
 #### Funciones
 
 - [ ] **Conceptos basicos (params, args, default values, return)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Python Functions - GeeksforGeeks (en ingles)](https://www.geeksforgeeks.org/python-functions/)
+   * [Python Functions - GeeksforGeeks (en ingles)](https://www.geeksforgeeks.org/python-functions/)
+
 </p></details>
 
 #### Iteración
 
 - [ ] **Uso de bucles/ciclos (while, for..in)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Loops in Python - For, While and Nested Loops - GeeksforGeeks](https://www.geeksforgeeks.org/loops-in-python/)
-  * [Loops - Learn Python - Free Interactive Python Tutorial](https://www.learnpython.org/en/Loops)
+   * [Loops in Python - For, While and Nested Loops - GeeksforGeeks](https://www.geeksforgeeks.org/loops-in-python/)
+   * [Loops - Learn Python - Free Interactive Python Tutorial](https://www.learnpython.org/en/Loops)
+
 </p></details>
 
 #### Testing en Python
 
 - [ ] **Pruebas unitarias (unit tests, unittest, pytest)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [unittest - Python Docs (en inglés)](https://docs.python.org/3/library/unittest.html)
-  * [pytest - Documentación oficial](https://docs.pytest.org/en/6.2.x/)
+   * [unittest - Python Docs (en inglés)](https://docs.python.org/3/library/unittest.html)
+   * [pytest - Documentación oficial](https://docs.pytest.org/en/6.2.x/)
+
 </p></details>
 
 - [ ] **Uso de mocks (y patch)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [unittest.mock - Python Docs (en inglés)](https://docs.python.org/3/library/unittest.mock.html)
-  * [Python Mock Library - Real Python (en inglés)](https://realpython.com/python-mock-library/)
+   * [unittest.mock - Python Docs (en inglés)](https://docs.python.org/3/library/unittest.mock.html)
+   * [Python Mock Library - Real Python (en inglés)](https://realpython.com/python-mock-library/)
+
 </p></details>
 
 - [ ] **Uso de fixtures**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [pytest fixtures - Documentación oficial](https://docs.pytest.org/en/6.2.x/fixture.html)
+   * [pytest fixtures - Documentación oficial](https://docs.pytest.org/en/6.2.x/fixture.html)
+
 </p></details>
 
 #### Modularización
 
 - [ ] **Módulos**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Módulos - Python Docs (en inglés)](https://docs.python.org/3/tutorial/modules.html)
+   * [Módulos - Python Docs (en inglés)](https://docs.python.org/3/tutorial/modules.html)
+
 </p></details>
 
 #### Manejo de dependencias
 
 - [ ] **pip (instalación y uso de paquetes)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [pip - Python Docs (en inglés)](https://docs.python.org/3/installing/index.html)
+   * [pip - Python Docs (en inglés)](https://docs.python.org/3/installing/index.html)
+
 </p></details>
 
 - [ ] **Virtual Environment (ambientes virtuales, virtualenv)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [venv — Creation of virtual environments — Python 3.12.2 documentation (en inglés)](https://docs.python.org/3/library/venv.html)
-  * [Python Virtual Environments: A Primer – Real Python (en inglés)](https://realpython.com/python-virtual-environments-a-primer/)
+   * [venv — Creation of virtual environments — Python 3.12.2 documentation (en inglés)](https://docs.python.org/3/library/venv.html)
+   * [Python Virtual Environments: A Primer – Real Python (en inglés)](https://realpython.com/python-virtual-environments-a-primer/)
+
 </p></details>
 
 - [ ] **requirements.txt**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [requirements.txt - Documentación oficial](https://pip.pypa.io/en/stable/user_guide/#requirements-files)
+   * [requirements.txt - Documentación oficial](https://pip.pypa.io/en/stable/user_guide/#requirements-files)
+
 </p></details>
