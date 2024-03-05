@@ -1,8 +1,3 @@
----
-runme:
-  id: 01HR89QZW26G1BCEG11W11WY2F
-  version: v3
----
 
 # Adivina el Número - Guess the Number
 
